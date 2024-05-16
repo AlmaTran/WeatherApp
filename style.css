@@ -21,6 +21,14 @@ body.hot {
 body.hot #weather {
 	background-image: url(hot.png);
 }
+body.colds {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+		url(colds.jpg) no-repeat center/cover;
+}
+
+body.colds #weather {
+	background-image: url(colds.jpg);
+}
 
 body.cold {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),

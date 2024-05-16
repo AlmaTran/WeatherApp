@@ -28,7 +28,10 @@ function changeWeatherUI(weather) {
 	if (temp <= 22)
 	{
 	body.setAttribute('class', 'cold')	
-
+	}
+	if (temp <= 19)
+	{
+	body.setAttribute('class', 'colds')	
 	}
 
 	visibility.innerHTML = weather.visibility + ' (m)'
@@ -51,4 +54,4 @@ async function getWeather(input) {
 	changeWeatherUI(weather)
 }
 
-getWeather('ha noi')
+getWeather('Ho Chi Minh')
